@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Notes.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is a Gift Generator</h1>
+
+        <label for="age">Reciepient's age</label>
+        <input type="number" id="age" required>
+
+        <label for="relationship">Relationship</label>
+        <input type="text" id="relation" required>
+
+        <label for="hobbies">their hobbies</label>
+        <input type="text" id="hobbies" required>
+
+        <button id="generateButton">Generate Gift</button>
+
+        <div id="giftOutput" class="hidden">
+            <h2>Gifts Suggestions</h2>
+            <p id="ageGift"></p>
+            <p id="relationshipGift"></p>
+            <p id="hobbyGift"></p>
+
+        </div>
+
+
+
+
+
+    </div>
+    <script src="Notes.js"></script>
+
+</body>
+
+</html>
